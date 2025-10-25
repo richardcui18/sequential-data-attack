@@ -77,10 +77,6 @@ if __name__ == '__main__':
 
     # Attacking each trajectory
     for i in range(len(dataset['tl_true_sequences'])):
-        # if i+1 not in range(1,51):
-        #     continue
-        if i != 3:
-            continue
         print()
         print('****************** Trajectory ' + str(i+1) + ' of ' + str(len(dataset['tl_true_sequences'])) + ' ******************')
         print()
